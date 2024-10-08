@@ -20,7 +20,7 @@ public class Ejercicio1 {
 		num=sc.nextDouble();
 		
 		/*mostramos por pantalla el módulo de 1 del número, que nos da la parte decimal y le decimos
-		que si es mayor o igual a 0.5 el sume uno en el ternario, en caso contrario lo trunca a entero.*/
+		que si es mayor o igual a 0.5 le sume uno en el ternario, en caso contrario lo trunca a entero.*/
 		System.out.println(num%1>=0.5?((int)num)+1:(int)num);
 		
 		
